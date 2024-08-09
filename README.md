@@ -14,3 +14,7 @@ source ./venv/bin/activate
 
 ## Install Django
 pipenv install django 
+
+## Start project
+django-admin startproject myproject
+cd myproject
