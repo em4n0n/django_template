@@ -1,4 +1,4 @@
-#!/Users/davidsim/Documents/GitHub/django_template/venv/bin/python3.11
+#!/Users/davidsim/Documents/GitHub/django_template/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
