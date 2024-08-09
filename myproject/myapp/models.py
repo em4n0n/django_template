@@ -8,4 +8,6 @@ class Picture(models.Model):
     description = models.TextField()
     created_on = models.DateTimeField(default=datetime.now)
     image = models.ImageField(upload_to="images/%Y/%m/%d")
-    
+
+    def __str__(self):
+        return self.title
