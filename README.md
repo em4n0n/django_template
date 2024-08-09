@@ -1,2 +1,7 @@
-# django_template
- django app
+# Clone project
+ git init
+ git clone
+ cd
+
+
+
