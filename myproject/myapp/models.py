@@ -11,3 +11,6 @@ class Picture(models.Model):
 
     def __str__(self):
         return self.title
+    
+obj = Picture(title = "Remmington", description = "cat")
+obj.save()
