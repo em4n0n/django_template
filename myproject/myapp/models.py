@@ -14,3 +14,9 @@ class Picture(models.Model):
     
 obj = Picture(title = "Remmington", description = "cat")
 obj.save()
+
+# obj = Picture.object.get(id=1)
+# obj.title = "Picture"
+# obj.save()
+
+# Picture.object.all()
