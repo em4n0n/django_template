@@ -7,3 +7,4 @@ def home(request):
     return HttpResponse('<h1> Welcome! </h1>')
 
 def index(request):
+    template = loader.get_template('demoapp/index.html')
