@@ -9,3 +9,4 @@ def home(request):
 def index(request):
     template = loader.get_template('myapp/index.html')
     context={}
+    return HttpResponse(template.render(context, request))
