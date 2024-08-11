@@ -9,8 +9,8 @@ class Picture(models.Model):
     def __str__(self):
         return self.title
     
-obj = Picture(title = "Remmington", description = "cat")
-obj.save()
+# obj = Picture(title = "Remmington", description = "cat")
+# obj.save()
 
 # to modify an object
 # obj = Picture.object.get(id=1)
