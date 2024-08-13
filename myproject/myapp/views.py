@@ -17,3 +17,5 @@ def index(request):
     return HttpResponse(content)
 
 def pathview(request, name, id):
+    return HttpResponse("Name:{} UserID:{}".format(name, id))
+
