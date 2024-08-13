@@ -3,6 +3,9 @@ from django.http import HttpResponse
 from django.template import loader
 
 # Create your views here.
+def home(request):
+    return HttpResponse('<h1> Welcome! </h1>')
+
 def index(request):
     path = request.path
     method = request.method
@@ -12,3 +15,5 @@ def index(request):
 <p>Request Method :{}</p></center>
 '''.format(path, method)
     return HttpResponse(content)
+
+def pathview(request, name, id):
