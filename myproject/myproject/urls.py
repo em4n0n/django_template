@@ -26,7 +26,7 @@ urlpatterns = [
     path('', views.home, name ='home'),
     path('index', views.index, name='index'),
     path('getuser/<name>/<id>', views.pathview, name='pathview'),
-]
+    path('getuser/', views.qryview, name='qryview')]
 
 if settings.DEBUG:
        urlpatterns += static(settings.MEDIA_URL,
